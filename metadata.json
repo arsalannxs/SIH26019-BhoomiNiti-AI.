@@ -1,0 +1,6 @@
+{
+  "name": "BhoomiNiti AI",
+  "description": "National Digital Platform for Research, Policy Innovation, and Evidence-Based Land Governance",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

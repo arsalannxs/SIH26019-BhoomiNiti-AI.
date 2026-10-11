@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #173F35;
+  --color-sand: #C58B45;
+  --color-cream: #F8F6EF;
+  --color-primary-text: #253B32;
+  --color-secondary-text: #66756A;
+  --color-border-subtle: #E4E7DD;
+  --color-sage: #DDECE2;
+  --color-light-sand: #F4E8D5;
+  --color-success: #287A54;
+  --color-warning: #C58B45;
+  --color-error: #C74747;
+}
+
+:root {
+  --forest-green: #173F35;
+  --warm-sand: #C58B45;
+  --cream-bg: #F8F6EF;
+  --white: #FFFFFF;
+  --primary-text: #253B32;
+  --secondary-text: #66756A;
+  --border-color: #E4E7DD;
+  --sage-surface: #DDECE2;
+  --light-sand: #F4E8D5;
+  --success: #287A54;
+  --warning: #C58B45;
+  --error: #C74747;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #F8F6EF;
+  color: #253B32;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F6EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDECE2;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C58B45;
+}
+
+/* Leaflet container fixes */
+.leaflet-container {
+  font-family: inherit;
+  border-radius: 0.75rem;
+  z-index: 10;
+}
